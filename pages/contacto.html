@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Red Hot Chili Peppers</title>
+</head>
+<body>
+    <header> <!--Sección del encabezado-->
+             <nav  class="header__nav">
+                <a href="../index.html"><img class="header__logo" src="../resources/android-chrome-192x192.png" alt="logo_inicio"></a>
+                <ul class="header__lista">
+                    <li class="header__item"><a href="../index.html">Inicio</a></li>
+                    <li class="header__item"><a href="tienda.html">Tienda</a></li>
+                    <li class="header__item"><a href="giras.html">Giras</a></li>
+                    <li class="header__item"><a href="noticias.html">Noticias</a></li>
+                    <li class="header__item"><a href="#">Contacto</a></li>
+                </ul>
+                <ul class="header__redes">
+                    <li class="header__iconos"><a href="https://es-la.facebook.com/ChiliPeppers" target="_blank"><img src="../resources/facebook.png" alt="icono facebook"></a></li>
+                    <li class="header__iconos"><a href="https://twitter.com/ChiliPeppers" target="_blank"><img src="../resources/twitter.png" alt="icono twitter"></a></li>
+                    <li class="header__iconos"><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img src="../resources/instagram.png" alt="icono instagram"></a></li>
+                </ul>
+            </nav>
+    </header>
+    <main> <!--Sección del cuerpo-->
+        <h1 class="titulo-mayor">Contacto</h1>
+        <form method="post" class="main__contacto">
+            <p>Nombre y Apellido</p>
+            <div>
+                <input>
+            </div>
+            <p>Número de contacto</p>
+            <div>
+                <input>
+            </div>
+            <p>Selecciona tu país</p>
+            <div>
+                <select name="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+            </div>
+            <p>Correo electrónico</p>
+            <div>
+                <input>
+            </div>
+            <div>
+                <input type="radio" name="acepto_terminos_y_condiciones">
+                <label>Acepto los términos y condiciones.</label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </div>
+        </form>
+    </main>
+    <footer> <!--Sección del pie-->
+        <p class="footer__fuente">Ⓒ 2022 Augusto Fernández. Todos los derechos reservados.<a href="https://pointerpointer.com/" target="_blank">Políticas de privacidad y términos de uso.</a></p>
+    </footer> 
+</body>
+</html>
