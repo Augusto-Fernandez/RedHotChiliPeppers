@@ -1,5 +1,5 @@
 <h1>Red Hot Chili Peppers - Proyecto Coderhouse</h1>
-<p>Este es un sitio web pensado como pagina oficial de los Red Hot Chili Peppers para el curos de desarrollo web de Coderhouse</p>
+<p>Este es un sitio web pensado como pagina oficial de los Red Hot Chili Peppers para el curso de desarrollo web de Coderhouse</p>
 
 <h2>Tecnologías usadas</h2>
 <ul>

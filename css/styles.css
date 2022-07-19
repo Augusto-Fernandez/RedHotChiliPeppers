@@ -9,6 +9,7 @@ header {
     width: 100vw;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .header__nav{
@@ -52,12 +53,30 @@ header {
     padding: 40px;
 }
 
-.header__item a {
+.header__link {
     text-decoration: none;
     color: rgb(189, 8, 55);
     font-size: 28px;
     font-family: 'Bebas Neue', cursive;
+    position: relative;
 }
+
+.header__link::after{
+    content: '';
+    position: absolute;
+    background-color: #e24e42;
+    height: 5px;
+    width: 100%;
+    left: 0%;
+    bottom: -1px;
+    transition: 0.5s ease-out;
+}
+
+.header__link:hover::after{
+    width: 100%;
+    background-color: rgb(189, 8, 55);
+}
+
 /* Sección main */
 main {
     background-color: #262228;
@@ -185,6 +204,11 @@ main {
     text-align: center;
     background-color: #3a383b;
     border-radius: 25px;
+}
+
+.main__articulo:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
 }
 
 .main__imagen-articulo{
