@@ -6,7 +6,7 @@
 /* Sección header */
 header {
     background-color: #e24e42;
-    width: 100vw;
+    width: 100%;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -32,7 +32,7 @@ header {
 
 .header__redes{
     list-style: none;
-    padding: 8px 16px 0px 29vw;
+    padding: 8px 16px 0px 27%;
     display: inline;
 }
 
@@ -80,7 +80,7 @@ header {
 /* Sección main */
 main {
     background-color: #262228;
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -156,12 +156,12 @@ main {
 }
 
 .main__img{
-    width: 100vw;
+    width: 100%;
 }
 
 .main__tienda-grid{
     display: grid;
-    width: 100vw;
+    width: 100%;
     height: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -252,8 +252,8 @@ main {
 /* Sección footer */
 footer {
     background-color: #e24e42;
-    width: 100vw;
-    height: 36px;
+    width: 100%;
+    height: 38px;
     position: sticky;
     bottom: 0px;
 }
