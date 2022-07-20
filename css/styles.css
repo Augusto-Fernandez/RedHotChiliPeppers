@@ -167,9 +167,9 @@ main {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "art1 art2 art3"
                          "art4 art5 art6";
-    column-gap: 20px;
-    row-gap: 20px;
-    padding: 20px 0px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px 0px;
 }
 
 .art1{
@@ -207,7 +207,7 @@ main {
 }
 
 .main__articulo:hover{
-    transform: scale(1.05,1.05);
+    transform: scale(1.03,1.03);
     transition: 0.5s;
 }
 
