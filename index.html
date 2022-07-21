@@ -18,21 +18,38 @@
 </head>
 <body>
     <header> <!--Sección del encabezado-->
-            <nav class="header__nav">
-                <a href="#"><img class="header__logo" src="resources/android-chrome-192x192.png" alt="logo_inicio"></a>
-                <ul class="header__lista">
-                    <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
-                    <li class="header__item"><a href="pages/tienda.html" class="header__link">Tienda</a></li>
-                    <li class="header__item"><a href="pages/giras.html" class="header__link">Giras</a></li>
-                    <li class="header__item"><a href="pages/noticias.html" class="header__link">Noticias</a></li>
-                    <li class="header__item"><a href="pages/contacto.html" class="header__link">Contacto</a></li>
-                </ul>  
-                <ul class="header__redes">
-                    <li class="header__iconos"><a href="https://es-la.facebook.com/ChiliPeppers" target="_blank"><img src="resources/facebook.png" alt="icono facebook"></a></li>
-                    <li class="header__iconos"><a href="https://twitter.com/ChiliPeppers" target="_blank"><img src="resources/twitter.png" alt="icono twitter"></a></li>
-                    <li class="header__iconos"><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img src="resources/instagram.png" alt="icono instagram"></a></li>
+        <nav class="navbar navbar-expand-lg header__color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./resources/android-chrome-192x192.png" alt="Icono de Inicio" class="header__logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 header__lista">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span class="header__fuente">Inicio</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/tienda.html"><span class="header__fuente">Tienda</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/giras.html"><span class="header__fuente">Giras</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/noticias.html"><span class="header__fuente">Noticias</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html"><span class="header__fuente">Contacto</span></a>
+                  </li>
                 </ul>
-            </nav>
+                <ul class="header__redes">
+                    <li class="nav-item header__iconos"><a href="https://es-la.facebook.com/ChiliPeppers" target="_blank"><img src="resources/facebook.png" alt="icono facebook"></a></li>
+                    <li class="nav-item header__iconos"><a href="https://twitter.com/ChiliPeppers" target="_blank"><img src="resources/twitter.png" alt="icono twitter"></a></li>
+                    <li class="nav-item header__iconos"><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img src="resources/instagram.png" alt="icono instagram"></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main> <!--Sección del cuerpo-->
         <section>
