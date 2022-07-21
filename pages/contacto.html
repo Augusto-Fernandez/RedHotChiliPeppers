@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#"><span class="header__fuente">Contacto</span></a>
                   </li>
                 </ul>
-                <ul class="header__redes">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 header__redes">
                     <li class="nav-item header__iconos"><a href="https://es-la.facebook.com/ChiliPeppers" target="_blank"><img src="../resources/facebook.png" alt="icono facebook"></a></li>
                     <li class="nav-item header__iconos"><a href="https://twitter.com/ChiliPeppers" target="_blank"><img src="../resources/twitter.png" alt="icono twitter"></a></li>
                     <li class="nav-item header__iconos"><a href="https://www.instagram.com/chilipeppers/" target="_blank"><img src="../resources/instagram.png" alt="icono instagram"></a></li>
@@ -53,37 +53,39 @@
     </header>
     <main> <!--Sección del cuerpo-->
         <h1 class="titulo-mayor">Contacto</h1>
-        <form method="post" class="main__contacto">
-            <p>Nombre y Apellido</p>
-            <div>
-                <input>
-            </div>
-            <p>Número de contacto</p>
-            <div>
-                <input>
-            </div>
-            <p>Selecciona tu país</p>
-            <div>
-                <select name="pais">
-                    <option value="Argentina">Argentina</option>
-                    <option value="Brasil">Brasil</option>
-                    <option value="Chile">Chile</option>
-                    <option value="Paraguay">Paraguay</option>
-                    <option value="Uruguay">Uruguay</option>
-                </select>
-            </div>
-            <p>Correo electrónico</p>
-            <div>
-                <input>
-            </div>
-            <div>
-                <input type="radio" name="acepto_terminos_y_condiciones">
-                <label>Acepto los términos y condiciones.</label>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset">
-            </div>
+        <form method="post">
+          <div class="mb-3 main__contacto">
+            <label for="exampleInputEmail1" class="form-label"><span class="fuente-general">Nombre y Apellido</span></label>
+            <input type="email" class="form-control main__barra-contacto" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 main__contacto">
+            <label for="exampleInputEmail1" class="form-label"><span class="fuente-general">Número de contacto</span></label>
+            <input type="email" class="form-control main__barra-contacto" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <select name="pais" class="form-select main__contacto-selector" aria-label="Default select example">
+            <option selected>Selecciona tu país</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Uruguay">Uruguay</option>
+          </select>
+          <div class="mb-3 main__contacto">
+            <label for="exampleInputEmail1" class="form-label"><span class="fuente-general">Correo electrónico</span></label>
+            <input type="email" class="form-control main__barra-contacto" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-check main__terminos-condiciones">
+            <input class="form-check-input main__check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label fuente-general" for="flexRadioDefault1">
+              Acepto términos y condiciones
+            </label>
+          </div>          
+          <div class="main__contacto main__espacio">
+            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+            <label class="btn btn-outline-primary main__check fuente-general" for="btn-check-outlined">Enviar</label>
+            <input type="checkbox" class="btn-check" id="btn-check-outlined2" autocomplete="off">
+            <label class="btn btn-outline-primary main__check fuente-general" for="btn-check-outlined2">Limpiar</label>
+          </div>
         </form>
     </main>
     <footer> <!--Sección del pie-->
