@@ -190,6 +190,11 @@ main {
     height: 325px;
 }
 
+.main__giras{
+    width: 80%;
+    padding: 0px 20px;
+}
+
 .main__fechas{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
