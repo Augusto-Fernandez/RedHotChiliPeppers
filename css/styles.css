@@ -133,7 +133,7 @@ main {
     width: 100%;
 }
 
-.main__tienda-grid{
+.main__tienda{
     display: grid;
     width: 100%;
     height: auto;
@@ -141,9 +141,9 @@ main {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "art1 art2 art3"
                          "art4 art5 art6";
-    column-gap: 10px;
-    row-gap: 10px;
-    padding: 10px 0px;
+    column-gap: 40px;
+    row-gap: 40px;
+    padding: 40px;
 }
 
 .art1{
@@ -171,13 +171,11 @@ main {
 }
 
 .main__articulo{
-    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: rgb(248, 246, 240);
     text-align: center;
     background-color: #3a383b;
-    border-radius: 25px;
 }
 
 .main__articulo:hover{
@@ -188,6 +186,9 @@ main {
 .main__imagen-articulo{
     width: 325px;
     height: 325px;
+    align-self: center;
+    padding-top: 40px;
+    border-radius: 10px;
 }
 
 .main__giras{
